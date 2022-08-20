@@ -16,3 +16,4 @@ rootProject.name = "Rom"
 include ':activitylifecycle'
 include ':workingwithactivitystate'
 include ':listview'
+include ':spinner'
