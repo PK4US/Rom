@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/alertdialog/src/main/res/layout/activity_level_1.xml" value="0.34769736842105264" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/alertdialog/src/main/res/layout/activity_level_2.xml" value="0.34769736842105264" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/alertdialog/src/main/res/layout/activity_main.xml" value="0.34769736842105264" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/alertdialog/src/main/res/layout/item_volume_single_choice.xml" value="0.34769736842105264" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/alertdialog/src/main/res/layout/part_volume.xml" value="0.34769736842105264" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/alertdialog/src/main/res/layout/part_volume_input.xml" value="0.34769736842105264" />
         <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/fragmentlifecycle/src/main/res/drawable/container_background.xml" value="0.544" />
         <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/fragmentlifecycle/src/main/res/layout/activity_main.xml" value="0.19671052631578947" />
         <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/fragmentlifecycle/src/main/res/layout/fragment_random.xml" value="0.34769736842105264" />
