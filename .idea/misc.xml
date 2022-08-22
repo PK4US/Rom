@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/fragmentlifecycle/src/main/res/drawable/container_background.xml" value="0.544" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/fragmentlifecycle/src/main/res/layout/activity_main.xml" value="0.19671052631578947" />
+        <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/fragmentlifecycle/src/main/res/layout/fragment_random.xml" value="0.34769736842105264" />
         <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/listview/src/main/res/layout/activity_array_adapter.xml" value="0.34769736842105264" />
         <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/listview/src/main/res/layout/activity_base_adapter.xml" value="0.34769736842105264" />
         <entry key="..\:/Eugene/_Programming/AndroidProjects/Rom/listview/src/main/res/layout/activity_simple_adapter.xml" value="0.34769736842105264" />
