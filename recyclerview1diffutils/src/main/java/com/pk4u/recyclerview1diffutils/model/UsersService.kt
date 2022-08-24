@@ -1,16 +1,14 @@
-package com.pk4u.recyclerview1.model
+package com.pk4u.recyclerview1diffutils.model
 
 import com.github.javafaker.Faker
 import java.util.*
+import kotlin.collections.ArrayList
 
 typealias UsersListener = (users: List<User>) -> Unit
 
 class UsersService {
-
     private var users = mutableListOf<User>()
-
     private val listeners = mutableSetOf<UsersListener>()
-
     init {
         val faker = Faker.instance()
         IMAGES.shuffle()
@@ -21,7 +19,6 @@ class UsersService {
             photo = IMAGES[it % IMAGES.size]
         ) }.toMutableList()
     }
-
     fun getUsers(): List<User> {
         return users
     }
@@ -58,16 +55,14 @@ class UsersService {
         listeners.add(listener)
         listener.invoke(users)
     }
-
-    private fun findIndexById(userId: Long): Int = users.indexOfFirst { it.id == userId }
-
     fun removeListener(listener: UsersListener) {
         listeners.remove(listener)
     }
-
     private fun notifyChanges() {
         listeners.forEach { it.invoke(users) }
     }
+
+    private fun findIndexById(userId: Long): Int = users.indexOfFirst { it.id == userId }
 
     companion object {
         private val IMAGES = mutableListOf(
