@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/fragmentlifecycle" />
             <option value="$PROJECT_DIR$/handlerlooper" />
             <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/mvvm-navigation" />
             <option value="$PROJECT_DIR$/navigationactivities" />
             <option value="$PROJECT_DIR$/navigationfragments" />
             <option value="$PROJECT_DIR$/recyclerview1" />
